@@ -1,0 +1,12 @@
+.a{
+    font-size: 24px; /* Change the font size */
+    color: #333;    /* Change the text color */
+    background-color: #2cd8ca; /* Change the background color */
+    padding: 20px;  /* Add some padding */
+    text-align: center; /* Center the text */
+    border: 1px solid #0e0000; /* Add a border */
+    border-radius: 10px;   /* Add border radius for rounded corners */
+    padding:10;
+    size: 20;
+  }
+  

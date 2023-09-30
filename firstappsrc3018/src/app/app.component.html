@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="a">
+    <p>welcome</p>
+  </div>
+  
+  name : <font [color]="mycolor"> {{projectTitle}}</font>
+
+  <br><br>
+  <input type="text/html" [(ngModel)]="name"><br>
+  <button (click)="showData()">click me</button>
+  <br><br>
+  <button [disabled]="status">click me to disable</button>
+Book Options:
+<ul>
+  <li><a routerLink="/add-book">AddBook</a></li>
+  <li><a routerLink="/delete-book">DeleteBook</a></li>
+</ul>
+Components loading....
+<router-outlet>
+  
+</router-outlet>
+</body>
+</html>
